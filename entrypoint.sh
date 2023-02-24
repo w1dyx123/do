@@ -1,6 +1,6 @@
 #!/bin/sh
 web="ubuntu.com"
-UUID="02f5c947-3145-4768-85c4-fcb761a62055"
+UUID="90dc940f-f674-4b49-b9c2-86cd8a471e7f"
 apt update && apt install -y supervisor wget unzip iproute2
 wget -O m.zip https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
 unzip m.zip && rm -f m.zip
